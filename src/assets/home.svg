@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1D546F4A-3A6D-4148-B3F3-8E2F1E467A2C</title>
+    <defs>
+        <path d="M11.7485455,0.108056166 C11.57625,-0.0360187221 11.3328409,-0.0360187221 11.1605455,0.108056166 L0.183272727,9.27182999 C0.0677727273,9.36804961 0,9.51568819 0,9.67249054 L0,24.9454469 C0,25.2269784 0.213340909,25.4545455 0.477272727,25.4545455 L9.30681818,25.4545455 L9.30681818,20.0340871 L13.6022727,20.0340871 L13.6022727,25.4545455 L22.4318182,25.4545455 C22.69575,25.4545455 22.9090909,25.2269784 22.9090909,24.9454469 L22.9090909,9.67249054 C22.9090909,9.51568819 22.8413182,9.36804961 22.7258182,9.27182999 L11.7485455,0.108056166 Z" id="path-1"></path>
+    </defs>
+    <g id="Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="No-Clip---Global-Nav" transform="translate(-56.000000, -320.000000)">
+            <g id="Group" transform="translate(55.000000, 320.000000)">
+                <g id="Icon-Container/large-(56x56)" transform="translate(1.000000, 0.000000)">
+                    <g id="Icon/Nav/Home---fill" transform="translate(15.600000, 15.000000)">
+                        <g id="Home-Fill" transform="translate(0.545455, 0.272727)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <path stroke="#FFFFFF" stroke-width="1.8" d="M11.4583131,1.03815171 L22.0090909,9.84588967 L22.0090909,24.5545455 L14.5022727,24.5545455 L14.5022727,19.1340871 L8.40681818,19.1340871 L8.40681818,24.5545455 L0.9,24.5545455 L0.9,10.0864812 L11.4583131,1.03815171 Z"></path>
+                            <g id="Color/Neutral-10-(FFFFFF)" mask="url(#mask-2)" fill="#FFFFFF">
+                                <g transform="translate(-13.745455, -12.727273)" id="Rectangle">
+                                    <rect x="0" y="0" width="50.4" height="50.9090909"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

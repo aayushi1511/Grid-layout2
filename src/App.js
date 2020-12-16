@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Grid from "@material-ui/core/Grid";
+import LeftNavigation from "./components/atoms/LeftNavigation";
+import { GenreList } from "./components/molecules/GenreList";
+import { MiddleContent } from "./components/molecules/MiddleContent";
+import { FeaturedList } from "./components/molecules/FeaturedList";
+import collections from "./assets/collections";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LeftNavigation />
+      <Grid
+        item
+        container
+        direction="column"
+        // justify="flex-start"
+        // alignItems="flex-start"
+      >
+        <GenreList />
+        <MiddleContent
+          title="Playlist Title That Spans Two Lines"
+          description="Short series description that can span two lines and be 80 characters and stuff."
+        />
+        <FeaturedList
+          heading="Featured Collections"
+          collections={collections}
+        />
+      </Grid>
     </div>
   );
 }
