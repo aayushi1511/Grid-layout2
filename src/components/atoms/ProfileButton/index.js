@@ -11,7 +11,7 @@ export const ProfileButton = (props) => {
         onClick={props.handleDrawerOpen}
         edge="start"
         className={clsx(classes.menu__button, {
-          [classes.hide]: open,
+          //[classes.hide]: open,
         })}
       >
         <img src={profile} className={classes.profile__img} />
