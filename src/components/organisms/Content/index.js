@@ -1,5 +1,5 @@
 import Grid from "@material-ui/core/Grid";
-import LeftNavigation from "../LeftNav";
+import LeftNav from "../LeftNav";
 import { GenreList } from "../../molecules/GenreList";
 import { MiddleContent } from "../../molecules/MiddleContent";
 import { FeaturedList } from "../../molecules/FeaturedList";
@@ -11,7 +11,7 @@ import nextCollection from "../../../assets/secondCollection";
 function Content() {
   return (
     <div className="App">
-      <LeftNavigation />
+      <LeftNav />
       <Grid
         item
         container
